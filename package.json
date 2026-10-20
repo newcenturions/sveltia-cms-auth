@@ -23,5 +23,10 @@
     "globals": "^17.13.0",
     "prettier": "^3.9.10",
     "wrangler": "4.151.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "sharp@<0.35.4": "^0.35.4"
+    }
   }
 }
